@@ -18,5 +18,5 @@ for calorie in CALORIE_LIST:
     
 elves.sort(reverse=True)
 
-print(elves[0])
-print(top_n_sum(elves, 3))
+print(elves[0])  # 71,300
+print(top_n_sum(elves, 3))  # 209,691

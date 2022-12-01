@@ -22,8 +22,8 @@ fn main() {
     elves.sort();
     elves.reverse();
     
-    println!("{}", elves[0]);
-    println!("{}", top_n_sum(elves, 3));
+    println!("{}", elves[0]);  // 71,300
+    println!("{}", top_n_sum(elves, 3));  // 209,691
 }
 
 fn top_n_sum(vec: Vec<i32>, n: i32) -> i32 {
